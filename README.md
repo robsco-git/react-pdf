@@ -67,7 +67,7 @@ class MyApp extends Component {
           onLoadSuccess={this.onDocumentLoad}
         >
           <Page
-            pageNumber={pageNumber}
+            pageNumber={this.state.pageNumber}
           />
         </Document>
         <p>Page {this.state.pageNumber} of {this.state.numPages}</p>
